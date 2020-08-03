@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(197, 186, 196);
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  background-color: rgb(184, 10, 184);
+  height: 150px;
+  width: 100%;
+  border-bottom-left-radius: 50% 80%;
+  border-bottom-right-radius: 50% 80%;
+  box-shadow: 0 10px 8px rgb(136, 43, 113);
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.header__left {
+  height: 30px;
+  background-color: transparent;
+  float: left;
+  color: white;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+.header__left:hover {
+  color: rgb(71, 80, 207);
+  background-color: white;
+  border-radius: 40%;
+}
+.header__right {
+  height: 50px;
+  float: right;
+  background-color: transparent;
+}
+.logout {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: 800;
+  transition: 0.5s;
+}
+.logout:hover {
+  color: rgb(71, 80, 207);
+  background-color: white;
+  border-radius: 40%;
+}
+.sideBar {
+  background-color: #2f323a;
+  margin-top: 10px;
+  padding-top: 10px;
+  position: fixed;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  border-top-right-radius: 60% 50%;
+  border-bottom-right-radius: 60% 50%;
+  box-shadow: 12px 0px 8px rgb(49, 29, 44);
+}
+
+.profile-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+  background-color: teal;
+}
+.sideBar h4 {
+  color: #ccc;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.sideBar a {
+  background-color: transparent;
+  display: block;
+  width: 200px;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.sideBar a:hover {
+  background: #0f89e6;
+  border-radius: 10px 50px 50px 10px;
+}
+.sideBar a i {
+  padding-right: 10px;
+  color: white;
+  background-color: transparent;
+}
+.sideBar a span {
+  background-color: transparent;
+  color: white;
+}
+.sidebar_btn {
+  float: right;
+  margin-top: 100px;
+  margin-right: 800px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 130px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #e9ebf1;
+}
+.sidebar_btn i {
+  z-index: 1;
+  cursor: pointer;
+  font-size: 2em;
+  background-color: transparent;
+  width: 100px;
+  height: 50px;
+  color: white;
+}
+#open {
+  color: rgb(26, 179, 26);
+}
+#close {
+  color: red;
+}
+.sidebar_btn i:hover {
+  color: #1983d3;
+}
